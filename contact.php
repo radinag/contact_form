@@ -1,4 +1,4 @@
-<?phpp
+<?php
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
@@ -16,5 +16,4 @@
     mail($to,$email_subject,$email_body,$headers);
 
     header("location: index.html");
-
 ?>
